@@ -140,7 +140,7 @@ function handleAnswerHard(event){
 function resetGameEasy() {
     swal({
         title: "Good job!",
-        text: "You got all the questions Correct! For completing the EASY difficulty you earned 1 STAR!",
+        text: "You got all the questions correct! Now try the harder difficulties!",
         icon: "success",
       });
     //POST TO ADD STAR
@@ -153,7 +153,7 @@ function resetGameMedium() {
     mediumDifficulty = false;
     swal({
         title: "Good job!",
-        text: "You got all the questions Correct! For completing the MEDIUM difficulty you earned 2 STARS!",
+        text: "You got all the questions correct! Do you think you can take on Hard?",
         icon: "success",
       });
     //POST TO ADD STAR
@@ -166,7 +166,7 @@ function resetGameHard() {
     hardDifficulty = false;
     swal({
         title: "Good job!",
-        text: "You got all the questions Correct! For completing the HARD difficulty you earned 3 STARS!",
+        text: "You got all the questions correct! You completed the hardest difficulty! Good job!",
         icon: "success",
       });
     //POST TO ADD STAR
